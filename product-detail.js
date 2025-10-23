@@ -7,7 +7,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/cucumber/image11.png",
+        src: "image11.png",
         title: {
           en: "Musk melon F1: Ratana seed",
           km: "ត្រសក់ស្រូវF1៖ពូជរតនា",
@@ -20,15 +20,15 @@ const products = {
         views: 633,
         gallery: [
           {
-            src: "image/cucumber/image23.png",
+            src: "image23.png",
             label: { en: "Front View", km: "ទិដ្ឋភាពខាងមុខ" },
           },
           {
-            src: "image/cucumber/photo_2025-10-22_16-07-16.jpg",
+            src: "photo_2025-10-22_16-07-16.jpg",
             label: { en: "Side View", km: "ទិដ្ឋភាពខាងក្រោយ" },
           },
           {
-            src: "image/cucumber/image11.png",
+            src: "image11.png",
             label: { en: "Plant", km: "ដើម" },
           },
         ],
@@ -116,7 +116,7 @@ const products = {
         },
       },
       {
-        src: "image/cucumber/photo_2025-10-22_16-50-38.jpg",
+        src: "photo_2025-10-22_16-50-38.jpg",
         title: {
           en: "F1 cucumber, Kangri variety",
           km: "ត្រសក់ទ្រើង F1 ពូជកង្រី",
@@ -126,15 +126,15 @@ const products = {
         views: 521,
         gallery: [
           {
-            src: "image/cucumber/photo_2025-10-23_10-20-55.jpg",
+            src: "photo_2025-10-23_10-20-55.jpg",
             label: { en: "Front View", km: "ទិដ្ឋភាពខាងមុខ" },
           },
           {
-            src: "image/cucumber/photo_2025-10-23_10-21-05.jpg",
+            src: "photo_2025-10-23_10-21-05.jpg",
             label: { en: "Cross Section", km: "ផ្នែកកាត់" },
           },
           {
-            src: "image/cucumber/photo_2025-10-23_10-21-24.jpg",
+            src: "photo_2025-10-23_10-21-24.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -218,7 +218,7 @@ const products = {
         },
       },
       {
-        src: "image/cucumber/photo_2025-10-23_10-20-55.jpg",
+        src: "photo_2025-10-23_10-20-55.jpg",
         title: { en: "Mini Cucumber", km: "ត្រសក់តូច" },
         info: { en: "Perfect for salads.", km: "ល្អឥតខ្ចោះសម្រាប់សាឡាត់" },
         weight: "1.5 grams/pkt",
@@ -326,7 +326,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Pumpkin/image8.png",
+        src: "image8.png",
         title: { en: "Golden Pumpkin", km: "ល្ពៅមាស" },
         info: { en: "Large fruit, high yield.", km: "ផ្លែធំ ទិន្នផលខ្ពស់" },
         weight: "5 grams/pkt",
@@ -425,7 +425,7 @@ const products = {
         },
       },
       {
-        src: "image/Pumpkin/image10.png",
+        src: "image10.png",
         title: { en: "Mini Pumpkin", km: "ល្ពៅតូច" },
         info: { en: "Ideal for home gardens.", km: "ល្អសម្រាប់សួនផ្ទះ" },
         weight: "3 grams/pkt",
@@ -524,7 +524,7 @@ const products = {
         },
       },
       {
-        src: "image/Pumpkin/image12.png",
+        src: "image12.png",
         title: { en: "Mini Pumpkin", km: "ល្ពៅតូច" },
         info: { en: "Ideal for home gardens.", km: "ល្អសម្រាប់សួនផ្ទះ" },
         weight: "3 grams/pkt",
@@ -842,7 +842,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Picture7.png",
+        src: "Picture7.png",
         title: { en: "Large Watermelon", km: "ឪឡឹកធំ" },
         info: { en: "Sweet and juicy.", km: "ផ្អែម និងមានទឹក" },
         weight: "10 grams/pkt",
@@ -1049,7 +1049,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Picture8.png",
+        src: "Picture8.png",
         title: { en: "Sweet Corn", km: "ពោតផ្អែម" },
         info: {
           en: "High yield with rich flavor.",
@@ -1151,7 +1151,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture9.png",
+        src: "Picture9.png",
         title: { en: "Golden Corn", km: "ពោតមាស" },
         info: { en: "Bright yellow and soft.", km: "លឿងភ្លឺ និងទន់" },
         weight: "18 grams/pkt",
@@ -1250,7 +1250,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture10.png",
+        src: "Picture10.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -1349,7 +1349,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture11.png",
+        src: "Picture11.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -1448,7 +1448,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture12.png",
+        src: "Picture12.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -1547,7 +1547,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture13.png",
+        src: "Picture13.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -1655,7 +1655,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Picture14.png",
+        src: "Picture14.png",
         title: { en: "Sweet Corn", km: "ពោតផ្អែម" },
         info: {
           en: "High yield with rich flavor.",
@@ -1757,7 +1757,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture15.png",
+        src: "Picture15.png",
         title: { en: "Golden Corn", km: "ពោតមាស" },
         info: { en: "Bright yellow and soft.", km: "លឿងភ្លឺ និងទន់" },
         weight: "18 grams/pkt",
@@ -1964,7 +1964,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Picture18.jpg",
+        src: "Picture18.jpg",
         title: { en: "Sweet Corn", km: "ពោតផ្អែម" },
         info: {
           en: "High yield with rich flavor.",
@@ -2066,7 +2066,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture19.png",
+        src: "Picture19.png",
         title: { en: "Golden Corn", km: "ពោតមាស" },
         info: { en: "Bright yellow and soft.", km: "លឿងភ្លឺ និងទន់" },
         weight: "18 grams/pkt",
@@ -2165,7 +2165,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture20.png",
+        src: "Picture20.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -2273,7 +2273,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Picture21.png",
+        src: "Picture21.png",
         title: { en: "Sweet Corn", km: "ពោតផ្អែម" },
         info: {
           en: "High yield with rich flavor.",
@@ -2375,7 +2375,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture22.png",
+        src: "Picture22.png",
         title: { en: "Golden Corn", km: "ពោតមាស" },
         info: { en: "Bright yellow and soft.", km: "លឿងភ្លឺ និងទន់" },
         weight: "18 grams/pkt",
@@ -2474,7 +2474,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture23.jpg",
+        src: "Picture23.jpg",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -2573,7 +2573,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture24.png",
+        src: "Picture24.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -2681,7 +2681,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Picture25.png",
+        src: "Picture25.png",
         title: { en: "Sweet Corn", km: "ពោតផ្អែម" },
         info: {
           en: "High yield with rich flavor.",
@@ -2783,7 +2783,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture26.png",
+        src: "Picture26.png",
         title: { en: "Golden Corn", km: "ពោតមាស" },
         info: { en: "Bright yellow and soft.", km: "លឿងភ្លឺ និងទន់" },
         weight: "18 grams/pkt",
@@ -2882,7 +2882,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture27.jpg",
+        src: "Picture27.jpg",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -2981,7 +2981,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture28.png",
+        src: "Picture28.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -3080,7 +3080,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture32.png",
+        src: "Picture32.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -3188,7 +3188,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Picture30.jpg",
+        src: "Picture30.jpg",
         title: { en: "Sweet Corn", km: "ពោតផ្អែម" },
         info: {
           en: "High yield with rich flavor.",
@@ -3290,7 +3290,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture31.png",
+        src: "Picture31.png",
         title: { en: "Golden Corn", km: "ពោតមាស" },
         info: { en: "Bright yellow and soft.", km: "លឿងភ្លឺ និងទន់" },
         weight: "18 grams/pkt",
@@ -3497,7 +3497,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Picture33.jpg",
+        src: "Picture33.jpg",
         title: { en: "Sweet Corn", km: "ពោតផ្អែម" },
         info: {
           en: "High yield with rich flavor.",
@@ -3599,7 +3599,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture34.png",
+        src: "Picture34.png",
         title: { en: "Golden Corn", km: "ពោតមាស" },
         info: { en: "Bright yellow and soft.", km: "លឿងភ្លឺ និងទន់" },
         weight: "18 grams/pkt",
@@ -3698,7 +3698,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture35.png",
+        src: "Picture35.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -3797,7 +3797,7 @@ const products = {
         },
       },
       {
-        src: "image/Picture36.png",
+        src: "Picture36.png",
         title: { en: "Hybrid Corn", km: "ពោតកូនកាត់" },
         info: { en: "Fast-growing variety.", km: "ពូជដុះលឿន" },
         weight: "22 grams/pkt",
@@ -6062,7 +6062,7 @@ const products = {
       },
     ],
   },
-   Herbs: {
+  Herbs: {
     name: { en: "Corn", km: "ពោត" },
     desc: {
       en: "Golden corn seed with fast growth and great yield.",

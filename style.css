@@ -1515,6 +1515,9 @@ body {
   .btn-product {
     width: 25%;
   }
+    .stats-bar {
+    padding: 5px 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1558,4 +1561,8 @@ body {
   .footer-content {
     grid-template-columns: 1fr;
   }
+    .stats-bar {
+    padding: 5px 0;
+  }
 }
+

@@ -6718,16 +6718,34 @@ document.addEventListener("keydown", (e) => {
 // Mobile Menu Toggle
 const mobileMenuToggle = document.getElementById("mobileMenuToggle");
 const nav = document.getElementById("nav");
+const navLinks = document.querySelectorAll(".nav-link");
 
 mobileMenuToggle.addEventListener("click", () => {
-  nav.classList.toggle("active");
   mobileMenuToggle.classList.toggle("active");
+  nav.classList.toggle("active");
+  document.body.style.overflow = nav.classList.contains("active")
+    ? "hidden"
+    : "";
 });
 
-// Close mobile menu when clicking on a link
-document.querySelectorAll(".nav-link").forEach((link) => {
+// Close mobile menu when clicking on a nav link
+navLinks.forEach((link) => {
   link.addEventListener("click", () => {
-    nav.classList.remove("active");
     mobileMenuToggle.classList.remove("active");
+    nav.classList.remove("active");
+    document.body.style.overflow = "";
   });
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener("click", (e) => {
+  if (
+    !nav.contains(e.target) &&
+    !mobileMenuToggle.contains(e.target) &&
+    nav.classList.contains("active")
+  ) {
+    mobileMenuToggle.classList.remove("active");
+    nav.classList.remove("active");
+    document.body.style.overflow = "";
+  }
 });

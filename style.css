@@ -1467,7 +1467,7 @@ body {
   }
 
   .products-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .research-content {
     grid-template-columns: 1fr;
@@ -1515,9 +1515,6 @@ body {
   .btn-product {
     width: 25%;
   }
-    .stats-bar {
-    padding: 5px 0;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1561,8 +1558,97 @@ body {
   .footer-content {
     grid-template-columns: 1fr;
   }
-    .stats-bar {
-    padding: 5px 0;
+}
+
+/* The fix media screen is here */
+/* Hero Section */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  /* padding-bottom: 200px; */
+}
+
+.hero-content {
+  text-align: center;
+  color: var(--white);
+  z-index: 1;
+  animation: fadeInUp 1s ease;
+  margin-bottom: 40px;
+}
+
+/* Stats Bar */
+.stats-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 30px 0;
+  z-index: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    padding-bottom: 250px;
   }
 }
 
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .hero {
+    padding-bottom: 80px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero {
+    padding-bottom: 120px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

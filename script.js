@@ -1,61 +1,69 @@
-// Language Switching
-let currentLang = "en";
+// Mobile Menu Toggle
+const mobileMenuToggle = document.getElementById("mobileMenuToggle");
+const nav = document.getElementById("nav");
+const navLinks = document.querySelectorAll(".nav-link");
 
+mobileMenuToggle.addEventListener("click", () => {
+  mobileMenuToggle.classList.toggle("active");
+  nav.classList.toggle("active");
+  document.body.style.overflow = nav.classList.contains("active")
+    ? "hidden"
+    : "";
+});
+
+// Close mobile menu when clicking on a nav link
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    mobileMenuToggle.classList.remove("active");
+    nav.classList.remove("active");
+    document.body.style.overflow = "";
+  });
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener("click", (e) => {
+  if (
+    !nav.contains(e.target) &&
+    !mobileMenuToggle.contains(e.target) &&
+    nav.classList.contains("active")
+  ) {
+    mobileMenuToggle.classList.remove("active");
+    nav.classList.remove("active");
+    document.body.style.overflow = "";
+  }
+});
+
+// Language Switcher
 const langSwitch = document.getElementById("langSwitch");
 const langOptions = document.querySelectorAll(".lang-option");
+let currentLang = "en";
 
 langOptions.forEach((option) => {
   option.addEventListener("click", () => {
-    const lang = option.getAttribute("data-lang");
+    const lang = option.dataset.lang;
     if (lang !== currentLang) {
       currentLang = lang;
-      updateLanguage(lang);
-
-      // Update active state
       langOptions.forEach((opt) => opt.classList.remove("active"));
       option.classList.add("active");
+      updateLanguage(lang);
     }
   });
 });
 
 function updateLanguage(lang) {
-  // Update all elements with language attributes
   document.querySelectorAll("[data-en]").forEach((element) => {
-    const text = element.getAttribute(`data-${lang}`);
-    if (text) {
-      if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
-        element.placeholder = text;
-      } else {
-        element.textContent = text;
-      }
-    }
-  });
-
-  // Update placeholders
-  document.querySelectorAll("[data-placeholder-en]").forEach((element) => {
-    const placeholder = element.getAttribute(`data-placeholder-${lang}`);
-    if (placeholder) {
-      element.placeholder = placeholder;
+    if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
+      element.placeholder =
+        element.dataset[
+          `placeholder${lang.charAt(0).toUpperCase() + lang.slice(1)}`
+        ];
+    } else if (element.tagName === "OPTION") {
+      element.textContent = element.dataset[lang];
+    } else {
+      element.textContent = element.dataset[lang];
     }
   });
 }
-
-// Mobile Menu Toggle
-const mobileMenuToggle = document.getElementById("mobileMenuToggle");
-const nav = document.getElementById("nav");
-
-mobileMenuToggle.addEventListener("click", () => {
-  nav.classList.toggle("active");
-  mobileMenuToggle.classList.toggle("active");
-});
-
-// Close mobile menu when clicking on a link
-document.querySelectorAll(".nav-link").forEach((link) => {
-  link.addEventListener("click", () => {
-    nav.classList.remove("active");
-    mobileMenuToggle.classList.remove("active");
-  });
-});
 
 // Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -76,28 +84,26 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Active Navigation Link on Scroll
+// Active Nav Link on Scroll
 const sections = document.querySelectorAll("section[id]");
-const navLinks = document.querySelectorAll(".nav-link");
 
-window.addEventListener("scroll", () => {
-  let current = "";
+function updateActiveNavLink() {
+  const scrollY = window.pageYOffset;
 
   sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
-    if (pageYOffset >= sectionTop - 100) {
-      current = section.getAttribute("id");
-    }
-  });
+    const sectionHeight = section.offsetHeight;
+    const sectionTop = section.offsetTop - 100;
+    const sectionId = section.getAttribute("id");
+    const navLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
 
-  navLinks.forEach((link) => {
-    link.classList.remove("active");
-    if (link.getAttribute("href") === `#${current}`) {
-      link.classList.add("active");
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+      navLinks.forEach((link) => link.classList.remove("active"));
+      if (navLink) navLink.classList.add("active");
     }
   });
-});
+}
+
+window.addEventListener("scroll", updateActiveNavLink);
 
 // Header Scroll Effect
 const header = document.getElementById("header");
@@ -110,36 +116,31 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// animated counter for stats
-function animateCounter(element) {
-  const target = Number.parseInt(element.getAttribute("data-count"));
-  const duration = 2000;
+// Animated Counter for Stats
+function animateCounter(element, target, duration = 2000) {
+  let start = 0;
   const increment = target / (duration / 16);
-  let current = 0;
 
-  const updateCounter = () => {
-    current += increment;
-    if (current < target) {
-      element.textContent = Math.floor(current);
-      requestAnimationFrame(updateCounter);
+  const timer = setInterval(() => {
+    start += increment;
+    if (start >= target) {
+      element.textContent = target.toLocaleString();
+      clearInterval(timer);
     } else {
-      element.textContent = target;
+      element.textContent = Math.floor(start).toLocaleString();
     }
-  };
-
-  updateCounter();
+  }, 16);
 }
 
-// Intersection observer for stats animation
+// Intersection Observer for Stats Animation
 const statsObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         const statNumbers = entry.target.querySelectorAll(".stat-number");
         statNumbers.forEach((stat) => {
-          if (stat.textContent === "0") {
-            animateCounter(stat);
-          }
+          const target = Number.parseInt(stat.dataset.count);
+          animateCounter(stat, target);
         });
         statsObserver.unobserve(entry.target);
       }
@@ -153,24 +154,6 @@ if (statsBar) {
   statsObserver.observe(statsBar);
 }
 
-// product filtering: but add later cuz now that need to do is chnage product
-
-// Newsletter form submission
-const newsletterForm = document.getElementById("newsletterForm");
-
-newsletterForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const email = newsletterForm.querySelector('input[type="email"]').value;
-
-  // Simulate form submission
-  alert(
-    currentLang === "en"
-      ? `Thank you for subscribing with ${email}!`
-      : `អរគុណសម្រាប់ការជាវជាមួយ ${email}!`
-  );
-  newsletterForm.reset();
-});
-
 // Chat Widget
 const chatWidget = document.getElementById("chatWidget");
 const chatButton = document.getElementById("chatButton");
@@ -182,15 +165,10 @@ chatButton.addEventListener("click", () => {
   chatWidget.classList.toggle("active");
 });
 
-function addChatMessage(message, isUser = false) {
+function addMessage(message, isUser = false) {
   const messageDiv = document.createElement("div");
-  messageDiv.classList.add("chat-message");
-  messageDiv.classList.add(isUser ? "user" : "bot");
-
-  const p = document.createElement("p");
-  p.textContent = message;
-  messageDiv.appendChild(p);
-
+  messageDiv.className = `chat-message ${isUser ? "user" : "bot"}`;
+  messageDiv.innerHTML = `<p>${message}</p>`;
   chatMessages.appendChild(messageDiv);
   chatMessages.scrollTop = chatMessages.scrollHeight;
 }
@@ -198,27 +176,14 @@ function addChatMessage(message, isUser = false) {
 chatSend.addEventListener("click", () => {
   const message = chatInput.value.trim();
   if (message) {
-    addChatMessage(message, true);
+    addMessage(message, true);
     chatInput.value = "";
 
     // Simulate bot response
     setTimeout(() => {
-      const responses =
-        currentLang === "en"
-          ? [
-              "Thank you for your message! How can I help you with our seeds?",
-              "I'd be happy to help! What product are you interested in?",
-              "Great question! Let me connect you with our team.",
-            ]
-          : [
-              "អរគុណសម្រាប់សាររបស់អ្នក! តើខ្ញុំអាចជួយអ្នកអ្វីអំពីគ្រាប់ពូជរបស់យើង?",
-              "ខ្ញុំរីករាយក្នុងការជួយ! តើអ្នកចាប់អារម្មណ៍លើផលិតផលអ្វី?",
-              "សំណួរល្អ! ខ្ញុំនឹងភ្ជាប់អ្នកជាមួយក្រុមរបស់យើង។",
-            ];
-
-      const randomResponse =
-        responses[Math.floor(Math.random() * responses.length)];
-      addChatMessage(randomResponse);
+      addMessage(
+        "Thank you for your message! Our team will get back to you soon."
+      );
     }, 1000);
   }
 });
@@ -233,7 +198,7 @@ chatInput.addEventListener("keypress", (e) => {
 const scrollTopBtn = document.getElementById("scrollTop");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 500) {
+  if (window.pageYOffset > 300) {
     scrollTopBtn.classList.add("visible");
   } else {
     scrollTopBtn.classList.remove("visible");
@@ -247,66 +212,45 @@ scrollTopBtn.addEventListener("click", () => {
   });
 });
 
-// Fade-in Animation on Scroll
-const observerOptions = {
-  threshold: 0.1,
-  rootMargin: "0px 0px -50px 0px",
-};
+// Newsletter Form
+const newsletterForm = document.getElementById("newsletterForm");
 
-const fadeInObserver = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.style.animation = "fadeInUp 0.8s ease forwards";
-      fadeInObserver.unobserve(entry.target);
-    }
-  });
-}, observerOptions);
-
-// Observe elements for fade-in animation
-document
-  .querySelectorAll(
-    ".testimonial-card, .product-card, .story-card, .blog-card, .timeline-item, .team-member"
-  )
-  .forEach((element) => {
-    element.style.opacity = "0";
-    fadeInObserver.observe(element);
-  });
-
-// Video Play Button (Placeholder functionality)
-document.querySelectorAll(".play-button").forEach((button) => {
-  button.addEventListener("click", () => {
-    alert(
-      currentLang === "en"
-        ? "Video player would open here!"
-        : "កម្មវិធីចាក់វីដេអូនឹងបើកនៅទីនេះ!"
-    );
-  });
+newsletterForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const email = e.target.querySelector('input[type="email"]').value;
+  alert(`Thank you for subscribing with: ${email}`);
+  e.target.reset();
 });
 
-// // Product "Learn More" Button
-// document.querySelectorAll(".btn-product").forEach((button) => {
-//   button.addEventListener("click", () => {
-//     alert(
-//       currentLang === "en"
-//         ? "Product details page would open here!"
-//         : "ទំព័រព័ត៌មានលម្អិតផលិតផលនឹងបើកនៅទីនេះ!"
-//     );
-//   });
-// });
+// Contact Form
+const contactForm = document.getElementById("contactForm");
 
-// Initialize
-document
-  .getElementById("contactForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Thank you for your message! We will get back to you soon.");
+  e.target.reset();
+});
 
-    // Example: detect button text to know language
-    const button = document.getElementById("sent");
-    const currentText = button.textContent.trim();
+// Fade-in Animation on Scroll
+const fadeElements = document.querySelectorAll(
+  ".product-card, .testimonial-card, .story-card, .blog-card"
+);
 
-    if (currentText === "Send Message") {
-      alert("✅ Your message has been sent successfully!");
-    } else {
-      alert("✅ សាររបស់អ្នកត្រូវបានផ្ញើដោយជោគជ័យ!");
-    }
-  });
+const fadeObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = "1";
+        entry.target.style.transform = "translateY(0)";
+      }
+    });
+  },
+  { threshold: 0.1 }
+);
+
+fadeElements.forEach((element) => {
+  element.style.opacity = "0";
+  element.style.transform = "translateY(20px)";
+  element.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+  fadeObserver.observe(element);
+});

@@ -6714,3 +6714,20 @@ document.addEventListener("keydown", (e) => {
     if (guideModal.classList.contains("active")) closeGuideModal();
   }
 });
+
+// Mobile Menu Toggle
+const mobileMenuToggle = document.getElementById("mobileMenuToggle");
+const nav = document.getElementById("nav");
+
+mobileMenuToggle.addEventListener("click", () => {
+  nav.classList.toggle("active");
+  mobileMenuToggle.classList.toggle("active");
+});
+
+// Close mobile menu when clicking on a link
+document.querySelectorAll(".nav-link").forEach((link) => {
+  link.addEventListener("click", () => {
+    nav.classList.remove("active");
+    mobileMenuToggle.classList.remove("active");
+  });
+});

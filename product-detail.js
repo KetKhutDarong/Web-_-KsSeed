@@ -7,7 +7,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/cucumber/Picture1.jpg",
+        src: "Picture1.jpg",
         title: {
           en: "F1 cucumber,Neang Kangri variety",
           km: "ត្រសក់ទ្រើង F1 ពូជនាងកង្រី",
@@ -17,15 +17,15 @@ const products = {
         views: 521,
         gallery: [
           {
-            src: "image/cucumber/cucomber8.jpg",
+            src: "cucomber8.jpg",
             label: { en: "Front View", km: "ទិដ្ឋភាពខាងមុខ" },
           },
           {
-            src: "image/cucumber/cucomber2.jpg",
+            src: "cucomber2.jpg",
             label: { en: "Cross Section", km: "ផ្នែកកាត់" },
           },
           {
-            src: "image/cucumber/cucomber3.jpg",
+            src: "cucomber3.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -101,7 +101,7 @@ const products = {
         },
       },
       {
-        src: "image/cucumber/cucomber4.webp",
+        src: "cucomber4.webp",
         title: {
           en: "F1 cucumber, Yuan variety",
           km: "ត្រសក់ទ្រើងF1ពូជយូអាន ",
@@ -114,15 +114,15 @@ const products = {
         views: 445,
         gallery: [
           {
-            src: "image/cucumber/cucomber5.jpg",
+            src: "cucomber5.jpg",
             label: { en: "Bunch", km: "ចង" },
           },
           {
-            src: "image/cucumber/cucomber6.jpg",
+            src: "cucomber6.jpg",
             label: { en: "Sliced", km: "កាត់" },
           },
           {
-            src: "image/cucumber/Picture3.png",
+            src: "Picture3.png",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
         ],
@@ -206,7 +206,7 @@ const products = {
         },
       },
       {
-        src: "image/cucumber/Picture5.png",
+        src: "Picture5.png",
         title: {
           en: "F1 Cucumber, Jasmine variety",
           km: "ត្រសក់ទ្រើង F1 ពូជ ចាស្មីត",
@@ -219,15 +219,15 @@ const products = {
         views: 445,
         gallery: [
           {
-            src: "image/cucumber/cucomber7.jpg",
+            src: "cucomber7.jpg",
             label: { en: "Bunch", km: "ចង" },
           },
           {
-            src: "image/cucumber/cucomber8.jpg",
+            src: "cucomber8.jpg",
             label: { en: "Sliced", km: "កាត់" },
           },
           {
-            src: "image/cucumber/photo_2025-10-27_10-26-29.jpg",
+            src: "photo_2025-10-27_10-26-29.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
         ],
@@ -311,7 +311,7 @@ const products = {
         },
       },
       {
-        src: "image/cucumber/Picture6.png",
+        src: "Picture6.png",
         title: {
           en: "F1 cucumber Socheata variety ",
           km: "ត្រសក់ទ្រើង F1 ពូជ សុជាតា",
@@ -324,15 +324,15 @@ const products = {
         views: 445,
         gallery: [
           {
-            src: "image/cucumber/cucomber9.jpg",
+            src: "cucomber9.jpg",
             label: { en: "Bunch", km: "ចង" },
           },
           {
-            src: "image/cucumber/cucomber10.jpg",
+            src: "cucomber10.jpg",
             label: { en: "Sliced", km: "កាត់" },
           },
           {
-            src: "image/cucumber/Picture6.png",
+            src: "Picture6.png",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
         ],
@@ -416,7 +416,7 @@ const products = {
         },
       },
       {
-        src: "image/cucumber/image11.png",
+        src: "image11.png",
         title: {
           en: "Rice cucumber F1: Ratana variety",
           km: "ត្រសក់ស្រូវ F1 ពូជរតនា",
@@ -429,15 +429,15 @@ const products = {
         views: 633,
         gallery: [
           {
-            src: "image/cucumber/photo_2025-10-22_16-07-16.jpg",
+            src: "photo_2025-10-22_16-07-16.jpg",
             label: { en: "Front View", km: "ទិដ្ឋភាពខាងមុខ" },
           },
           {
-            src: "image/cucumber/Picture2.jpg",
+            src: "Picture2.jpg",
             label: { en: "Side View", km: "ទិដ្ឋភាពខាងក្រោយ" },
           },
           {
-            src: "image/cucumber/image11.png",
+            src: "image11.png",
             label: { en: "Plant", km: "ដើម" },
           },
         ],
@@ -507,7 +507,7 @@ const products = {
         },
       },
       {
-        src: "image/cucumber/cucomber11.webp",
+        src: "cucomber11.webp",
         title: {
           en: "OP Rice Cucumber Lu Chao variety",
           km: "ត្រសក់ស្រូវ OP ពូជ លូចាវ",
@@ -520,7 +520,7 @@ const products = {
         views: 445,
         gallery: [
           {
-            src: "image/cucumber/Picture7.png",
+            src: "Picture7.png",
             label: { en: "Bunch", km: "ចង" },
           },
           {
@@ -621,7 +621,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Pumpkin/image10.png",
+        src: "image10.png",
         title: {
           en: "Bottle pumpkin, ​F1 Sorya variety 01",
           km: "ល្ពៅកដប F1 ពូជ សូរិយា ០១",
@@ -634,15 +634,15 @@ const products = {
         views: 612,
         gallery: [
           {
-            src: "image/Pumpkin/Picture10.png",
+            src: "Picture10.png",
             label: { en: "Group", km: "ក្រុម" },
           },
           {
-            src: "image/Pumpkin/Picture13.webp",
+            src: "Picture13.webp",
             label: { en: "Single", km: "តែមួយ" },
           },
           {
-            src: "image/Pumpkin/Pumpkin1.jpg",
+            src: "Pumpkin1.jpg",
             label: { en: "Vine", km: "ដើមវល្លិ៍" },
           },
         ],
@@ -726,7 +726,7 @@ const products = {
         },
       },
       {
-        src: "image/Pumpkin/Picture8.png",
+        src: "Picture8.png",
         title: {
           en: "Bottle pumpkin F1, Trou pumpkin variety.",
           km: "ល្ពៅកដប F1  ពូជ ល្ពៅទ្រូ",
@@ -739,15 +739,15 @@ const products = {
         views: 612,
         gallery: [
           {
-            src: "image/Pumpkin/Picture9.png",
+            src: "Picture9.png",
             label: { en: "Group", km: "ក្រុម" },
           },
           {
-            src: "image/Pumpkin/Pumpkin2.jpg",
+            src: "Pumpkin2.jpg",
             label: { en: "Single", km: "តែមួយ" },
           },
           {
-            src: "image/Pumpkin/Pumpkin3.jpg",
+            src: "Pumpkin3.jpg",
             label: { en: "Vine", km: "ដើមវល្លិ៍" },
           },
         ],
@@ -831,7 +831,7 @@ const products = {
         },
       },
       {
-        src: "image/Pumpkin/image8.png",
+        src: "image8.png",
         title: {
           en: "Pumpkin F1,khmer kingkok Pumpkin variety",
           km: "ល្ពៅ F1 ពូជ ល្ពៅគីង្គក់ខ្មែរ ",
@@ -841,15 +841,15 @@ const products = {
         views: 789,
         gallery: [
           {
-            src: "image/Pumpkin/image21.png",
+            src: "image21.png",
             label: { en: "Whole", km: "ទាំងមូល" },
           },
           {
-            src: "image/Pumpkin/image8.png",
+            src: "image8.png",
             label: { en: "Cut", km: "កាត់" },
           },
           {
-            src: "image/Pumpkin/image1.png",
+            src: "image1.png",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -925,7 +925,7 @@ const products = {
         },
       },
       {
-        src: "image/Pumpkin/image12.png",
+        src: "image12.png",
         title: {
           en: "Kingkok Pumpkin OP, Chhnok trou variety",
           km: "ល្ពៅគីង្គក់ OP ពូជ ឆ្នុកទ្រូ ",
@@ -938,15 +938,15 @@ const products = {
         views: 612,
         gallery: [
           {
-            src: "image/Pumpkin/image28.png",
+            src: "image28.png",
             label: { en: "Group", km: "ក្រុម" },
           },
           {
-            src: "image/Pumpkin/image25.png",
+            src: "image25.png",
             label: { en: "Single", km: "តែមួយ" },
           },
           {
-            src: "image/Pumpkin/Picture12.png",
+            src: "Picture12.png",
             label: { en: "Vine", km: "ដើមវល្លិ៍" },
           },
         ],
@@ -1039,7 +1039,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Tomato/Picture13.png",
+        src: "Picture13.png",
         title: { en: "Tomato F1 Monica variety", km: "ប៉េងបោះ F1 ពូជ ម៉ូនីកា" },
         info: {
           en: "Weather resistant, resistant to BW & Alternaria viruses.",
@@ -1049,15 +1049,15 @@ const products = {
         views: 923,
         gallery: [
           {
-            src: "image/Tomato/Picture15.png",
+            src: "Picture15.png",
             label: { en: "Ripe", km: "ទុំ" },
           },
           {
-            src: "image/Tomato/Pic1.jpeg",
+            src: "Pic1.jpeg",
             label: { en: "On Vine", km: "នៅលើដើម" },
           },
           {
-            src: "image/Tomato/Picture16.png",
+            src: "Picture16.png",
             label: { en: "Sliced", km: "កាត់" },
           },
         ],
@@ -1254,7 +1254,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/General/Picture7.png",
+        src: "Picture7.png",
         title: {
           en: "Watermelon Ktoeb OP Nacha variety",
           km: "ឪឡឹកក្តឹប OP ពូជ ណាចា",
@@ -1468,7 +1468,7 @@ const products = {
     imgs: [
       {
         // src: "image/Picture8.png",
-        src: "image/corn/corn1.jpg",
+        src: "corn1.jpg",
 
         title: {
           en: "Corn F1 Koh Prak variety.",
@@ -1482,15 +1482,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/corn/corn1.jpg",
+            src: "corn1.jpg",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/corn/corn2.jpg",
+            src: "corn2.jpg",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/corn/corn3.webp",
+            src: "corn3.webp",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -1566,7 +1566,7 @@ const products = {
         },
       },
       {
-        src: "image/Corn/corn4.webp",
+        src: "corn4.webp",
         title: {
           en: "Tri-color corn, Ratha 007 variety.",
           km: "ពោតដំណើប បីពណ៌ ពូជ​ រដ្ឋា007។",
@@ -1579,11 +1579,11 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/Corn/corn4.webp",
+            src: "corn4.webp",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/Corn/corn5.jpg",
+            src: "corn5.jpg",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
@@ -1669,7 +1669,7 @@ const products = {
         },
       },
       {
-        src: "image/Corn/corn6.webp",
+        src: "corn6.webp",
         title: {
           en: "Sweet corn, F1 Hawaiian corn variety.",
           km: "ពោតផ្អែម ពូជពោតហាវ៉ៃ F1។",
@@ -1682,15 +1682,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Corn/corn6.webp",
+            src: "corn6.webp",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Corn/corn7.avif",
+            src: "corn7.avif",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Corn/corn8.webp",
+            src: "corn8.webp",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -1774,7 +1774,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/WinterMelon/winter1.jpg",
+        src: "winter1.jpg",
         title: {
           en: "Winter melon F1 Athon variety",
           km: "ត្រឡាច F1 ពូជ អាធន់។",
@@ -1787,15 +1787,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/WinterMelon/winter3.webp",
+            src: "winter3.webp",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/WinterMelon/winter4.jpg",
+            src: "winter4.jpg",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/WinterMelon/photo_2025-10-27_14-36-38.jpg",
+            src: "photo_2025-10-27_14-36-38.jpg",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -1871,7 +1871,7 @@ const products = {
         },
       },
       {
-        src: "image/WinterMelon/Picture18.jpg",
+        src: "Picture18.jpg",
         title: {
           en: "Winter melon F1 Dara variety.",
           km: "ត្រឡាច F1 ពូជ តារា។",
@@ -1884,15 +1884,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/WinterMelon/Picture18.jpg",
+            src: "Picture18.jpg",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/WinterMelon/winter6.jpg",
+            src: "winter6.jpg",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/WinterMelon/winter5.jpg",
+            src: "winter5.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -1983,7 +1983,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/bitter/Picture18.jpg",
+        src: "Picture18.jpg",
         title: {
           en: "Bitter melon F1 Romyol variety",
           km: "ម្រះ F1 ពូជ រំយោល",
@@ -1996,15 +1996,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/bitter/Picture18.jpg",
+            src: "Picture18.jpg",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/bitter/bitter1.jpg",
+            src: "bitter1.jpg",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/bitter/bitter2.jpg",
+            src: "bitter2.jpg",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -2096,7 +2096,7 @@ const products = {
         },
       },
       {
-        src: "image/bitter/bitter3.png",
+        src: "bitter3.png",
         title: { en: "Bitter melonF1 Morokat variety", km: "ម្រះ F1 ពូជ មរកត" },
         info: {
           en: "Low initial yield, then high, weather resistant, disease resistant.",
@@ -2106,15 +2106,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/bitter/Picture19.png",
+            src: "Picture19.png",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/bitter/bitter4.jpg",
+            src: "bitter4.jpg",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/bitter/bitter5.jpg",
+            src: "bitter5.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -2196,7 +2196,7 @@ const products = {
         },
       },
       {
-        src: "image/bitter/Picture20.png",
+        src: "Picture20.png",
         title: {
           en: "Bitter melon F1 Mongkol 08 variety",
           km: "ម្រះ F1 ពូជ មង្គល០៨។",
@@ -2206,15 +2206,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/bitter/Picture20.png",
+            src: "Picture20.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/bitter/bitter6.jpg",
+            src: "bitter6.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/bitter/bitter7.jpg",
+            src: "bitter7.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -2298,7 +2298,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/ChilliPaper/chili1.png",
+        src: "chili1.png",
         title: { en: "F1 Chili Krishna variety", km: "ម្ទេស F1 ពូជ គ្រីស្នា។" },
         info: {
           en: "Strong and healthy plant, resistant to wilt, anthracnose, and some viruses.",
@@ -2308,15 +2308,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/ChilliPaper/chili2.JPG",
+            src: "chili2.JPG",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/ChilliPaper/chili3.JPG",
+            src: "chili3.JPG",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/ChilliPaper/chili5.JPG",
+            src: "chili5.JPG",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -2416,7 +2416,7 @@ const products = {
         },
       },
       {
-        src: "image/ChilliPaper/Picture23.png",
+        src: "Picture23.png",
         title: {
           en: "F1 Chili Neang Kream variety",
           km: "ម្ទេស F1 ពូជ នាងគ្រាម។",
@@ -2429,15 +2429,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/chilliPaper/Picture23.png",
+            src: "Picture23.png",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/chilliPaper/chili11.jpg",
+            src: "chili11.jpg",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/chilliPaper/Picture22.png",
+            src: "Picture22.png",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -2519,7 +2519,7 @@ const products = {
         },
       },
       {
-        src: "image/chilliPaper/Picture23.jpg",
+        src: "Picture23.jpg",
         title: {
           en: "Chili Pepper F1 Variety: Sonita",
           km: "ម្ទេសប្លោក F1 ពូជ សូនីតា",
@@ -2532,15 +2532,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/chilliPaper/Picture23.jpg",
+            src: "Picture23.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/chilliPaper/chili4.webp",
+            src: "chili4.webp",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/chilliPaper/chili6.jpg",
+            src: "chili6.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -2615,7 +2615,7 @@ const products = {
         },
       },
       {
-        src: "image/ChilliPaper/chili7.png",
+        src: "chili7.png",
         title: {
           en: "Chili OP: Variety Chaly",
           km: "ម្ទេសអាចម៍សត្វ OP ពូជ ឆាលី",
@@ -2628,15 +2628,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/ChilliPaper/chili8.jpg",
+            src: "chili8.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/ChilliPaper/chili9.jpg",
+            src: "chili9.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/ChilliPaper/chili10.jpg",
+            src: "chili10.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -2720,7 +2720,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/luffa/Picture25.png",
+        src: "Picture25.png",
         title: {
           en: "Round Luffa F1 Variety: Brahaer",
           km: "ននោងមូល ពូជ ប្រហើរ F1",
@@ -2733,15 +2733,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/luffa/Picture25.png",
+            src: "Picture25.png",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/luffa/luffa1.webp",
+            src: "luffa1.webp",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/luffa/luffa2.jpg",
+            src: "luffa2.jpg",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -2825,7 +2825,7 @@ const products = {
         },
       },
       {
-        src: "image/luffa/Picture26.png",
+        src: "Picture26.png",
         title: { en: "Luffa Variety F1: Sophy", km: "ននោងមូលពូជF1 សូភី" },
         info: {
           en: "Green and dark green, round, long, pointed tail.",
@@ -2835,15 +2835,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/luffa/luffa3.jpg",
+            src: "luffa3.jpg",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/luffa/luffa4.webp",
+            src: "luffa4.webp",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/luffa/luffa5.jpg",
+            src: "luffa5.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -2925,7 +2925,7 @@ const products = {
         },
       },
       {
-        src: "image/luffa/Picture27.jpg",
+        src: "Picture27.jpg",
         title: {
           en: "Luffa acutangula variety: Platung F1",
           km: "ននោងជ្រុង ពូជ ផ្លាតុង F1",
@@ -2938,15 +2938,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/luffa/luffa6.jpg",
+            src: "luffa6.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/luffa/luffa7.webp",
+            src: "luffa7.webp",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/luffa/luffa8.webp",
+            src: "luffa8.webp",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -3055,7 +3055,7 @@ const products = {
         },
       },
       {
-        src: "image/luffa/Picture28.png",
+        src: "Picture28.png",
         title: {
           en: "Luffa acutangula variety: Mega F1",
           km: "ននោងជ្រុង ពូជ មេហ្កា F1",
@@ -3068,15 +3068,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/luffa/luffa9.webp",
+            src: "luffa9.webp",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/luffa/luffa10.jpg",
+            src: "luffa10.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/luffa/luffa11.jpg",
+            src: "luffa11.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -3151,7 +3151,7 @@ const products = {
         },
       },
       {
-        src: "image/luffa/luffa12.avif",
+        src: "luffa12.avif",
         title: {
           en: "Serpent gourd F1 variety Dana",
           km: "ននោងពស់ F1 ពូជ ដាណា",
@@ -3164,15 +3164,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/luffa/luffa12.avif",
+            src: "luffa12.avif",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/luffa/luffa13.jpg",
+            src: "luffa13.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/luffa/luffa12.avif",
+            src: "luffa12.avif",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -3256,7 +3256,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/bottle/Picture30.jpg",
+        src: "Picture30.jpg",
         title: {
           en: "Bottle Gourd F1 Variety: Miami",
           km: "ឃ្លោក F1 ពូជ ម៉ីអាមី",
@@ -3269,15 +3269,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/bottle/bottle1.jpg",
+            src: "bottle1.jpg",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/bottle/bottle2.webp",
+            src: "bottle2.webp",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/bottle/bottle3.jpg",
+            src: "bottle3.jpg",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -3370,7 +3370,7 @@ const products = {
         },
       },
       {
-        src: "image/bottle/Picture31.png",
+        src: "Picture31.png",
         title: { en: "Bottle gourd OP Variety: Mesa", km: "ឃ្លោក OP ពូជ មេសា" },
         info: {
           en: "During the dry season, it requires moisture on the leaves and stem.",
@@ -3380,15 +3380,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/bottle/bottle4.webp",
+            src: "bottle4.webp",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/bottle/bottle5.jpg",
+            src: "bottle5.jpg",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/bottle/bottle6.jpg",
+            src: "bottle6.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -3479,7 +3479,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/eggplant/Picture33.jpg",
+        src: "Picture33.jpg",
         title: {
           en: "Aubergine F1 variety: Santay",
           km: "ត្រប់វែង F1 ពូជ ត្រប់សណ្តាយ",
@@ -3492,15 +3492,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/eggplant/eggplant1.jpg",
+            src: "eggplant1.jpg",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/eggplant/eggplant2.png",
+            src: "eggplant2.png",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/eggplant/eggplant3.jpg",
+            src: "eggplant3.jpg",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -3578,7 +3578,7 @@ const products = {
         },
       },
       {
-        src: "image/eggplant/Picture34.png",
+        src: "Picture34.png",
         title: {
           en: "Round Eggplant F1 variety: Chantha ",
           km: "ត្រប់ស្រួយ F1 ពូជ ចាន់ថា",
@@ -3591,15 +3591,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/eggplant/Picture34.png",
+            src: "Picture34.png",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/eggplant/eggplant4.webp",
+            src: "eggplant4.webp",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/eggplant/eggplant5.jpg",
+            src: "eggplant5.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -3681,7 +3681,7 @@ const products = {
         },
       },
       {
-        src: "image/eggplant/Picture35.png",
+        src: "Picture35.png",
         title: {
           en: "Round Eggplant F1 variety: Chan Thai",
           km: "ត្រប់ស្រួយ F1 ពូជ ចាន់ថៃ",
@@ -3694,15 +3694,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/eggplant/eggplant6.webp",
+            src: "eggplant6.webp",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/eggplant/eggplant7.webp",
+            src: "eggplant7.webp",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/eggplant/eggplant8.webp",
+            src: "eggplant8.webp",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -3802,7 +3802,7 @@ const products = {
         },
       },
       {
-        src: "image/eggplant/Picture36.png",
+        src: "Picture36.png",
         title: {
           en: "Large Eggplant OP variety: Sambo 007",
           km: "ត្រប់ធំ OP ពូជ សំបូ ០០៧",
@@ -3815,15 +3815,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/eggplant/eggplant9.jpg",
+            src: "eggplant9.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/eggplant/eggplant10.jpg",
+            src: "eggplant10.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/eggplant/eggplant11.jpg",
+            src: "eggplant11.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -3908,7 +3908,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/okra/okra2.jpg",
+        src: "okra2.jpg",
         title: {
           en: "Red Okra OP variety: RKA001",
           km: "ពោតបារាំង ក្រហម OP ពូជ RKA001",
@@ -3921,15 +3921,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/okra/okra2.jpg",
+            src: "okra2.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/okra/okra4.jpg",
+            src: "okra4.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/okra/okra3.webp",
+            src: "okra3.webp",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -4004,7 +4004,7 @@ const products = {
         },
       },
       {
-        src: "image/Okra/Picture4.png",
+        src: "Picture4.png",
         title: {
           en: "Okra OP variety: Apsaar 001",
           km: "ពោតបារាំង OP ពូជអប្សរ 001",
@@ -4017,15 +4017,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Okra/Picture5.png",
+            src: "Picture5.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Okra/Picture4.png",
+            src: "Picture4.png",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Okra/okra5.jpg",
+            src: "okra5.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -4100,7 +4100,7 @@ const products = {
         },
       },
       {
-        src: "image/Okra/Picture2.png",
+        src: "Picture2.png",
         title: {
           en: "Okra OP variety: Daineang 09",
           km: "ពោតបារាំង OP ពូជ ដៃនាង09",
@@ -4113,15 +4113,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Okra/okra1.jpg",
+            src: "okra1.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Okra/Okro-plant.jpg",
+            src: "Okro-plant.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Okra/okra-fruit-plant-fresh-green-okra-on-tree-in-nature-garden-free-photo.jpg",
+            src: "okra-fruit-plant-fresh-green-okra-on-tree-in-nature-garden-free-photo.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -4209,7 +4209,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Bean/bean1.webp",
+        src: "bean1.webp",
         title: {
           en: "France Bean variety: Piseth.",
           km: "សណ្តែកបារាំង ពូជ ពិសិដ្ឋ",
@@ -4222,15 +4222,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/Bean/bean3.webp",
+            src: "bean3.webp",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/Bean/bean4.webp",
+            src: "bean4.webp",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/Bean/bean2.jpg",
+            src: "bean2.jpg",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -4306,7 +4306,7 @@ const products = {
         },
       },
       {
-        src: "image/Bean/mungbean1.webp",
+        src: "mungbean1.webp",
         title: {
           en: "Mung bean variety: Ek Phnom.",
           km: "សណ្តែកបាយ ពូជឯកភ្នំ",
@@ -4319,15 +4319,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/Bean/mungbean1.webp",
+            src: "mungbean1.webp",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/Bean/mungbean2.jpg",
+            src: "mungbean2.jpg",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/Bean/mungbean3.webp",
+            src: "mungbean3.webp",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -4409,7 +4409,7 @@ const products = {
         },
       },
       {
-        src: "image/Bean/yardlongbean1.webp",
+        src: "yardlongbean1.webp",
         title: {
           en: "Yardlong bean OP variety: Rathanak.",
           km: "សណ្តែកកួ OP ពូជ រតនៈ",
@@ -4422,15 +4422,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Bean/yardlongbean1.webp",
+            src: "yardlongbean1.webp",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Bean/yardlongbean2.webp",
+            src: "yardlongbean2.webp",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Bean/yardlongbean3.jpg",
+            src: "yardlongbean3.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -4524,7 +4524,7 @@ const products = {
         },
       },
       {
-        src: "image/Bean/Picture38.png",
+        src: "Picture38.png",
         title: {
           en: "Yardlong bean OP variety: Romsaysork.",
           km: "សណ្តែកកួ OP ពូជ រំសាយសក់",
@@ -4537,15 +4537,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Bean/Picture38.png",
+            src: "Picture38.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Bean/yardlongbean5.jpg",
+            src: "yardlongbean5.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Bean/yardlongbean4.webp",
+            src: "yardlongbean4.webp",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -4632,7 +4632,7 @@ const products = {
         },
       },
       {
-        src: "image/Bean/wingbean1.png",
+        src: "wingbean1.png",
         title: {
           en: "Wing bean OP variety: Vasavi",
           km: "ពពាយជ្រុង OP ពូជ វ៉ាសាវី",
@@ -4645,15 +4645,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Bean/wingbean2.webp",
+            src: "wingbean2.webp",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Bean/wingbean4.jpg",
+            src: "wingbean4.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Bean/wingbean3.jpg",
+            src: "wingbean3.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -4737,7 +4737,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Papaya/papaya3.jpg",
+        src: "papaya3.jpg",
         title: {
           en: "Khmer papaya OP variety: Malay.",
           km: "ល្ហុងខ្មែរ OP ពូជ ម៉ាឡៃ",
@@ -4750,15 +4750,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/Papaya/papaya3.jpg",
+            src: "papaya3.jpg",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/Papaya/Picture11.png",
+            src: "Picture11.png",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/Papaya/Picture12.png",
+            src: "Picture12.png",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -5025,7 +5025,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Cauliflower/Picture42.png",
+        src: "Picture42.png",
         title: {
           en: "Cauliflower variety: Kai Lan 01.",
           km: "ខាត់ណាដើម ពូជ កៃឡាន់ 01",
@@ -5038,15 +5038,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/Cauliflower/Picture42.png",
+            src: "Picture42.png",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/Cauliflower/Cauliflower1.jpg",
+            src: "Cauliflower1.jpg",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/Cauliflower/Cauliflower4.webp",
+            src: "Cauliflower4.webp",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -5124,7 +5124,7 @@ const products = {
         },
       },
       {
-        src: "image/Cauliflower/Picture43.png",
+        src: "Picture43.png",
         title: {
           en: "Cauliflower baong OP variety : Amab",
           km: "ខាត់ណាបោងOPពូជ​អាម៉ាប់",
@@ -5137,15 +5137,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/Cauliflower/Picture43.png",
+            src: "Picture43.png",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/Cauliflower/Cauliflower២.jpg",
+            src: "Cauliflower២.jpg",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/Cauliflower/Picture13.png",
+            src: "Picture13.png",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -5335,7 +5335,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/Cruciferous/Picture44.png",
+        src: "Picture44.png",
         title: {
           en: "Choy Sum OP variety : Chak Angre1",
           km: "ស្ពៃចង្កិះ OP ពូជ ចាក់អង្រែ1",
@@ -5348,15 +5348,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/Cruciferous/Picture44.png",
+            src: "Picture44.png",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/Cruciferous/ChoySum1.jpg",
+            src: "ChoySum1.jpg",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/Cruciferous/ChoySum2.jpg",
+            src: "ChoySum2.jpg",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -5432,7 +5432,7 @@ const products = {
         },
       },
       {
-        src: "image/Cruciferous/Picture45.png",
+        src: "Picture45.png",
         title: {
           en: "Choy Sum Flower OP variety : Choi Sim",
           km: "ស្ពៃចង្កិះផ្កា OP ពូជ ឆយស៊ីម",
@@ -5445,15 +5445,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/Cruciferous/Picture45.png",
+            src: "Picture45.png",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/Cruciferous/ChoySumFlower2.jpg",
+            src: "ChoySumFlower2.jpg",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/Cruciferous/ChoySumFlower1.jpg",
+            src: "ChoySumFlower1.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -5535,7 +5535,7 @@ const products = {
         },
       },
       {
-        src: "image/Cruciferous/Picture46.png",
+        src: "Picture46.png",
         title: {
           en: "Curly cabbage variety: Kenya",
           km: "ស្ពៃក្រញ៉ាញ់ពូជ គេនយ៉ា",
@@ -5548,15 +5548,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Cruciferous/Picture46.png",
+            src: "Picture46.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Cruciferous/curlycabbage3.jpg",
+            src: "curlycabbage3.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Cruciferous/curlycabbage2.jpg",
+            src: "curlycabbage2.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -5630,7 +5630,7 @@ const products = {
         },
       },
       {
-        src: "image/Cruciferous/Picture47.jpg",
+        src: "Picture47.jpg",
         title: {
           en: "Pak-choy OP variety : HM001",
           km: "ស្ពៃជើងទា OP ពូជ HM001",
@@ -5643,15 +5643,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Cruciferous/Picture47.jpg",
+            src: "Picture47.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Cruciferous/Pak_choy2.jpg",
+            src: "Pak_choy2.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Cruciferous/Pak_choy1.jpg",
+            src: "Pak_choy1.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -5726,7 +5726,7 @@ const products = {
         },
       },
       {
-        src: "image/Cruciferous/Picture48.png",
+        src: "Picture48.png",
         title: {
           en: "Green Mustard or Root Cabbage",
           km: "ស្ពៃខៀវ ពូជ ស្ពៃឬស",
@@ -5739,15 +5739,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Cruciferous/Picture48.png",
+            src: "Picture48.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Cruciferous/cabbage1.jpg",
+            src: "cabbage1.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Cruciferous/cabbage2.jpg",
+            src: "cabbage2.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -5822,7 +5822,7 @@ const products = {
         },
       },
       {
-        src: "image/Cruciferous/Picture49.jpg",
+        src: "Picture49.jpg",
         title: {
           en: "Bok Choy OP variety: Neang Tom",
           km: "ស្ពៃតឿ OP ពូជ នាងតុម  ",
@@ -5832,15 +5832,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Cruciferous/Picture49.jpg",
+            src: "Picture49.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Cruciferous/Neangtom1.webp",
+            src: "Neangtom1.webp",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Cruciferous/Neangtom2.jpg",
+            src: "Neangtom2.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -5915,7 +5915,7 @@ const products = {
         },
       },
       {
-        src: "image/Cruciferous/Picture50.png",
+        src: "Picture50.png",
         title: { en: "Bok Choy F1 variety: Saophea", km: "ស្ពៃតឿ F1 ពូជ សោភា" },
         info: {
           en: "Fast-growing, high-yielding, and tolerant to Cambodia’s climate.",
@@ -5925,15 +5925,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/Cruciferous/soaphea1.jpg",
+            src: "soaphea1.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/Cruciferous/soaphea2.jpg",
+            src: "soaphea2.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/Cruciferous/soaphea3.jpg",
+            src: "soaphea3.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -6046,7 +6046,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/EdibleAmaranth/Picture51.png",
+        src: "Picture51.png",
         title: {
           en: " Green Edible Amaranth variety: AR020 OP",
           km: "ផ្ទីបៃតង ពូជ AR020 OP",
@@ -6059,15 +6059,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/EdibleAmaranth/Picture51.png",
+            src: "Picture51.png",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/EdibleAmaranth/edible1.jpg",
+            src: "edible1.jpg",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/EdibleAmaranth/Picture51.png",
+            src: "Picture51.png",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -6125,7 +6125,7 @@ const products = {
         },
       },
       {
-        src: "image/EdibleAmaranth/Picture52.png",
+        src: "Picture52.png",
         title: {
           en: "Red Edible Amaranth OP variety: Licana",
           km: "ផ្ទីក្រហម OP ពូជ លិកាណា",
@@ -6138,15 +6138,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/EdibleAmaranth/Picture52.png",
+            src: "Picture52.png",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/EdibleAmaranth/Picture14.png",
+            src: "Picture14.png",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/EdibleAmaranth/rededible1.webp",
+            src: "rededible1.webp",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -6237,7 +6237,7 @@ const products = {
     },
     imgs: [
       {
-        src: "image/herb/Picture53.png",
+        src: "Picture53.png",
         title: { en: "Basil OP variety: SB 001", km: "ជីនាងវង OP ពូជ SB 001" },
         info: {
           en: "Has a fragrance that is resistant to tropical climates, especially Cambodia.",
@@ -6247,15 +6247,15 @@ const products = {
         views: 1156,
         gallery: [
           {
-            src: "image/herb/basil1.jpg",
+            src: "basil1.jpg",
             label: { en: "Ear", km: "ផ្លែ" },
           },
           {
-            src: "image/herb/herb2.png",
+            src: "herb2.png",
             label: { en: "Kernels", km: "គ្រាប់" },
           },
           {
-            src: "image/herb/herb1.png",
+            src: "herb1.png",
             label: { en: "Field", km: "វាល" },
           },
         ],
@@ -6331,7 +6331,7 @@ const products = {
         },
       },
       {
-        src: "image/herb/whiteherb.jpg",
+        src: "whiteherb.jpg",
         title: { en: "White Basil variety: Neanglin", km: "ជីសរ ពូជ ជីនាងលីន" },
         info: {
           en: "High-yielding, weather-tolerant, and disease-resistant.",
@@ -6341,15 +6341,15 @@ const products = {
         views: 934,
         gallery: [
           {
-            src: "image/herb/whiteherb.jpg",
+            src: "whiteherb.jpg",
             label: { en: "Cob", km: "ផ្លែ" },
           },
           {
-            src: "image/herb/whiteherb2.png",
+            src: "whiteherb2.png",
             label: { en: "Cooked", km: "ឆ្អិន" },
           },
           {
-            src: "image/herb/whiteherb3.jpg",
+            src: "whiteherb3.jpg",
             label: { en: "Harvest", km: "ប្រមូលផល" },
           },
         ],
@@ -6431,7 +6431,7 @@ const products = {
         },
       },
       {
-        src: "image/herb/Picture55.png",
+        src: "Picture55.png",
         title: {
           en: "Culantro variety: Long leaves",
           km: "ជីរណា ពូជ ស្លឹកវែង",
@@ -6444,15 +6444,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/herb/Picture55.png",
+            src: "Picture55.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/herb/herb4.jpg",
+            src: "herb4.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/herb/herb5.jpg",
+            src: "herb5.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -6527,7 +6527,7 @@ const products = {
         },
       },
       {
-        src: "image/herb/Picture56.png",
+        src: "Picture56.png",
         title: {
           en: "Coriander OP variety: Chiva",
           km: "ជីវ៉ាន់ស៊ុយ​ OP ពូជ​ជីវ៉ា",
@@ -6540,15 +6540,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/herb/Picture56.png",
+            src: "Picture56.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/herb/herb6.webp",
+            src: "herb6.webp",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/herb/herb8.png",
+            src: "herb8.png",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -6623,7 +6623,7 @@ const products = {
         },
       },
       {
-        src: "image/herb/Picture57.png",
+        src: "Picture57.png",
         title: {
           en: "Tang ao OP variety: CSTG 001",
           km: "តាំងអោ ពូជ CSTG 001",
@@ -6636,15 +6636,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/herb/Picture57.png",
+            src: "Picture57.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/herb/herb9.png",
+            src: "herb9.png",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/herb/​herb10.jpg",
+            src: "​herb10.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -6719,7 +6719,7 @@ const products = {
         },
       },
       {
-        src: "image/herb/herb11.png",
+        src: "herb11.png",
         title: {
           en: "Water Celery OP vaariety: Saraytip",
           km: "ភ្លៅកង្កែប OP ពូជសារាយទិព",
@@ -6732,15 +6732,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/herb/herb11.png",
+            src: "herb11.png",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/herb/herb12.jpg",
+            src: "herb12.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/herb/Picture58.png",
+            src: "Picture58.png",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
@@ -6815,7 +6815,7 @@ const products = {
         },
       },
       {
-        src: "image/herb/herb3.jpg",
+        src: "herb3.jpg",
         title: {
           en: "Leek OP variety: Viola",
           km: "ខ្ទឹមស្លឹក OP ពូជ វ៉ាយអូឡា",
@@ -6828,15 +6828,15 @@ const products = {
         views: 1089,
         gallery: [
           {
-            src: "image/herb/herb13.jpg",
+            src: "herb13.jpg",
             label: { en: "Fresh", km: "ស្រស់" },
           },
           {
-            src: "image/herb/herb14.jpg",
+            src: "herb14.jpg",
             label: { en: "Growing", km: "កំពុងដុះ" },
           },
           {
-            src: "image/herb/herb15.jpg",
+            src: "herb15.jpg",
             label: { en: "Mature", km: "ទុំ" },
           },
         ],
